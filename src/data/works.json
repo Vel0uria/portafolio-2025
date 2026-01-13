@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "nombre": "Nigredo",
+    "fecha": "2018",
+    "descripcion": "Colección de historias que borran la línea entre la verdad y la ficción. Cada historia va acompañada de una imagen que da testimonio del hecho narrado. Sin embargo, el testimonio es falso, pues todas las imágenes provienen del album familiar de la autora.",
+    "imagenes": [
+      {
+        "url": "/images/works/nigredo/1.jpg",
+        "alt": "Imagen 1 de Nigredo"
+      },
+      {
+        "url": "/images/works/nigredo/2.jpg",
+        "alt": "Imagen 2 de Nigredo"
+      }
+    ]
+  }
+]
