@@ -4,31 +4,21 @@
     "nombre": "Nigredo",
     "fecha": "2018",
     "descripcion": "Colección de historias que borran la línea entre la verdad y la ficción. Cada historia va acompañada de una imagen que da testimonio del hecho narrado. Sin embargo, el testimonio es falso, pues todas las imágenes provienen del album familiar de la autora.",
-    "imagenes": [
-      {
-        "url": "https://res.cloudinary.com/dn1i6hdch/image/upload/v1778283696/Nigredo/cajita_usgdvk.jpg",
-        "alt": "imagen de portada"
-      },
-      {
-        "url": "https://res.cloudinary.com/dn1i6hdch/image/upload/v1778283639/Nigredo/entelequias_b8qdln.png",
-        "alt": "Imagen de caja"
-      }
-    ]
+    "media": {
+      "thumbnail": "portfolio/recursive-garden/thumb",
+      "hero": "portfolio/recursive-garden/hero",
+      "video": "portfolio/recursive-garden/demo"
+    }
   },
   {
     "id": 2,
     "nombre": "Oro y sangre",
     "fecha": "2020",
     "descripcion": "Oro y sangre es una serie de obras que hacen homenaje a la Tierra a partir de los símbolos sagrados provenientes delbarroco mexicano y las serpientes prehispánicas, particularmente la Virgen de Guadalupe. Si bien el territorio actualmente conocido como México ha pasado por incontables momentos de destrucción de símbolos e imposiciones religiosas, las manifestaciones sagradas de la Tierra sobreviven de formas sutiles. En lugar de desaparecer, conviven y se fundensutilmente con las imágenes de la religión imperante. Tras el paso de los siglos, la Tierra mexicana se ha convertido en un sincretismo de serpientes acéfalas con entrañas abismales y escamas churriguerescas bañadas en oro ysangre.",
-    "imagenes": [
-      {
-        "url": "https://res.cloudinary.com/dn1i6hdch/image/upload/v1778283696/Nigredo/cajita_usgdvk.jpg",
-        "alt": "imagen de portada"
-      },
-      {
-        "url": "https://res.cloudinary.com/dn1i6hdch/image/upload/v1778283639/Nigredo/entelequias_b8qdln.png",
-        "alt": "Imagen de caja"
-      }
-    ]
+    "media": {
+      "thumbnail": "portfolio/recursive-garden/thumb",
+      "hero": "portfolio/recursive-garden/hero",
+      "video": "portfolio/recursive-garden/demo"
+    }
   }
 ]
