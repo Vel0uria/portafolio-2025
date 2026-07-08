@@ -1,1 +1,1 @@
-export const CLOUD_NAME = "tu-cloud-name";
+export const CLOUD_NAME = "dn1i6hdch";

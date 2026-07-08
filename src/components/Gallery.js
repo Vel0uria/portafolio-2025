@@ -1,6 +1,27 @@
 import { cld, cldThumb, cldVideo } from "../utils/cloudinary.js";
 
-nigredoImg.src = cldThumb("v1783392353/Nigredo/nigredo_thumbnail.png");
+export function renderGallery(works) {
+  const gallery = document.querySelector("#gallery");
+  works.forEach(work => {
+    const card = document.createElement("article");
+    card.classList.add("work-card");
+
+    card.innerHTML = `
+      <img
+        src="${cldThumb(work.media.thumbnail)}"
+        alt="${work.title}"
+      >
+
+      <h2>${work.title}</h2>
+
+      <p>${work.year}</p>
+    `;
+
+    gallery.appendChild(card);
+  });
+}
+
+//nigredoImg.src = cldThumb("v1783392353/Nigredo/nigredo_thumbnail.png");
 
 //video.src = cldVideo(work.media.video);
 
