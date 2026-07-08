@@ -15,7 +15,7 @@ export function cld(
 }
 
 export function cldThumb(path) {
-  return `${BASE_URL}/image/upload/c_thumb,w_200,g_face/` + `${path}`;
+  return `${BASE_URL}/image/upload/c_thumb,w_200` + `${path}`;
 }
 
 /**
@@ -25,4 +25,4 @@ export function cldVideo(path, { quality = "auto" } = {}) {
   return `${BASE_URL}/video/upload/` + `${path}`;
 }
 
-//https://res.cloudinary.com/dn1i6hdch/image/upload/c_thumb,w_200,g_face/v1783392353/Nigredo/nigredo_thumbnail.png
+//https://res.cloudinary.com/dn1i6hdch/image/upload/c_thumb,w_200,g_face/v1783484752/Nigredo/nigredo_thumbnail.png

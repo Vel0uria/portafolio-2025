@@ -1,5 +1,5 @@
-import { renderGallery } from "./components/Gallery";
-import { loadWorks } from "./utils/fetchWorks";
+import { renderGallery } from "./components/Gallery.js";
+import { loadWorks } from "./utils/fetchWorks.js";
 
 async function init() {
   const works = await loadWorks();

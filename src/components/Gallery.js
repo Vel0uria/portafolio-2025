@@ -9,12 +9,12 @@ export function renderGallery(works) {
     card.innerHTML = `
       <img
         src="${cldThumb(work.media.thumbnail)}"
-        alt="${work.title}"
+        alt="${work.nombre}"
       >
 
-      <h2>${work.title}</h2>
+      <h2>${work.nombre}</h2>
 
-      <p>${work.year}</p>
+      <p>${work.fecha}</p>
     `;
 
     gallery.appendChild(card);

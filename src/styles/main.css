@@ -3,3 +3,30 @@ body{
     color:rgb(127, 255, 242);
     font-family: Arial, sans-serif;
 }
+
+.about {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+    color:rgb(242, 203, 255);
+}
+
+.about h2 {
+    color: rgb(127, 255, 242);
+    text-align: left;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+ /*justify-content: center;*/
+}
+
+.work-card {
+    background-color: rgb(30, 30, 30);
+    border: 1px solid rgb(237, 181, 255);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
